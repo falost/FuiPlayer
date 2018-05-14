@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>hello</title>
+    <script src="/index.js" type="text/javascript"></script>
+    <!-- <script src="/app.js" type="text/javascript"></script> -->
+</head>
+<body>
+    <div id="app"></div>
+    <script type="text/javascript">
+      var hello = new FuiPlayer({
+        vm: '#app',
+        src: 'http://vtest.96koo.net/common/LzEvcmVsZWFzZS8yMDE3MTIxMy9FOGFRVDhEZXJaL0U4YVFUOERlclpfNjQwXzgwMA==_704.m3u8',
+        clarityList: [
+          {
+            name: '标清',
+            pixel: '360P', src:'http://vtest.96koo.net/common/LzEvcmVsZWFzZS8yMDE3MTIxMy9FOGFRVDhEZXJaL0U4YVFUOERlclpfNjQwXzgwMA==_704.m3u8'
+          },
+          {
+            name: '高清',
+            pixel: '720P',
+            src: 'http://vtest.96koo.net/common/LzEvcmVsZWFzZS8yMDE3MTIxMy9FOGFRVDhEZXJaL0U4YVFUOERlclpfOTYwXzEwMDA=_704.m3u8'
+          }
+        ]
+      })
+      console.log('--------hello--------')
+      console.log(hello)
+      console.log('------ End------')
+    </script>
+</body>
+</html>
